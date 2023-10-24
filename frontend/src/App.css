@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #000000;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+th, td {
+  padding: 2vh;
+  text-align: left;
+
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+table, th, td {
+  border: 0.1vh solid #000;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.register-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 1.5vh;
+  cursor: pointer;
+  border-radius: 1vh;
+  font-size: 2.1vh;
+  margin-top: 2vh;
+}
+
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+.class-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2vh;
+}
+
+.class-input {
+  margin: 0.4vh;
+}
+
+.class-label {
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+.class-select {
+  width: 50%;
+}
+
+.send-button {
+  background-color: #30d551;
+  color: #fff;
+  border: none;
+  padding: 1vh 2vh;
+  cursor: pointer;
+  border-radius: 1vh;
+  font-size: 2vh;
+  margin-top: 1vh;
+}
+
+
+.send-button:hover {
+  background-color: #00b354;
+}
